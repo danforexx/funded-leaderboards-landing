@@ -416,20 +416,25 @@
 
         @media (max-width: 768px) {
             .section {
-                padding: 60px 20px;
+                padding: 40px 16px;
             }
 
             .section-header {
-                margin-bottom: 40px;
+                margin-bottom: 32px;
             }
 
             .section-title {
-                font-size: 32px;
+                font-size: 28px;
             }
 
             .stats {
                 grid-template-columns: 1fr;
-                gap: 30px;
+                gap: 24px;
+            }
+
+            .vsl-section {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
             }
 
             .process {
@@ -439,10 +444,224 @@
 
             .prize-grid {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
             }
 
             .hero h1 {
-                font-size: 36px;
+                font-size: 32px;
+            }
+
+            .hero {
+                padding: 80px 16px 20px 16px;
+            }
+
+            .hero-desc {
+                font-size: 14px;
+            }
+
+            .stat-num {
+                font-size: 32px;
+            }
+
+            .stat-label {
+                font-size: 13px;
+            }
+
+            .btn {
+                padding: 12px 24px;
+                font-size: 13px;
+            }
+
+            .promo-banner {
+                padding: 10px 16px;
+                font-size: 11px;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .claim-btn {
+                position: static;
+                padding: 6px 12px;
+                font-size: 11px;
+            }
+
+            .promo-banner code {
+                padding: 2px 6px;
+                font-size: 10px;
+                margin: 0 4px;
+            }
+
+            .promo-banner span {
+                display: block;
+                width: 100%;
+                text-align: center;
+                word-wrap: break-word;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section {
+                padding: 30px 12px;
+            }
+
+            .section-header {
+                margin-bottom: 24px;
+            }
+
+            .section-title {
+                font-size: 24px;
+                line-height: 1.15;
+            }
+
+            .section-label {
+                font-size: 11px;
+            }
+
+            .section-subtitle {
+                font-size: 14px;
+            }
+
+            .stats {
+                gap: 16px;
+            }
+
+            .stat {
+                padding: 8px;
+            }
+
+            .stat-num {
+                font-size: 28px;
+                margin-bottom: 8px;
+            }
+
+            .stat-label {
+                font-size: 12px;
+            }
+
+            .vsl-section {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .video-wrapper {
+                padding-bottom: 56.25%;
+            }
+
+            .play-btn-center {
+                font-size: 24px;
+                padding: 16px 20px;
+            }
+
+            .process {
+                gap: 16px;
+            }
+
+            .step-num {
+                width: 44px;
+                height: 44px;
+                font-size: 18px;
+                margin: 0 auto 12px;
+            }
+
+            .step h3 {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            .step p {
+                font-size: 13px;
+            }
+
+            .prize-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .prize-card {
+                padding: 18px 12px;
+            }
+
+            .rank {
+                font-size: 10px;
+            }
+
+            .amount {
+                font-size: 20px;
+            }
+
+            .evaluation {
+                font-size: 10px;
+            }
+
+            .bonus-section {
+                padding: 12px;
+                font-size: 13px;
+            }
+
+            .bonus-highlight {
+                font-size: 14px;
+                margin-bottom: 6px;
+            }
+
+            .hero h1 {
+                font-size: 26px;
+                line-height: 1.15;
+                margin-bottom: 10px;
+            }
+
+            .hero {
+                padding: 60px 12px 16px 12px;
+            }
+
+            .hero-label {
+                font-size: 11px;
+                margin-bottom: 16px;
+            }
+
+            .hero-desc {
+                font-size: 13px;
+                margin-bottom: 18px;
+            }
+
+            .hero-cta {
+                margin-bottom: 30px;
+            }
+
+            .btn {
+                padding: 11px 20px;
+                font-size: 12px;
+            }
+
+            .btn-primary {
+                width: 100%;
+                text-align: center;
+            }
+
+            .promo-banner {
+                padding: 8px 12px;
+                font-size: 10px;
+                gap: 6px;
+            }
+
+            .claim-btn {
+                padding: 5px 10px;
+                font-size: 10px;
+                margin-top: 4px;
+            }
+
+            .promo-banner code {
+                padding: 1px 5px;
+                font-size: 9px;
+                margin: 0 2px;
+            }
+
+            footer {
+                padding: 16px 12px;
+                font-size: 12px;
+            }
+
+            footer p {
+                margin: 6px 0;
             }
         }
     </style>
